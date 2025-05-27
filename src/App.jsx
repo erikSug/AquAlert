@@ -1,14 +1,18 @@
 import './App.css'
-
+import Logo from './assets/Aqua.png'
 function App() {
   return (
     <>
     <header>
-      he
+      <img src={Logo} alt="" id='logo'/>
     </header>
-      <section className="map">
+
+    <section>
+      <div className="map">
     
-      </section>
+      </div>
+    </section>
+
     </>
   )
 }

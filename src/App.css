@@ -1,9 +1,25 @@
-body{
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: #A9D8FF;
+    height: 122px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#logo{
+    width: 125px;
+    height: 87px;
+}
+section{
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 808px;
 }
+
 .map{
     height: 592px;
     width: 862px;
