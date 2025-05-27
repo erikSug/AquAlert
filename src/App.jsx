@@ -1,5 +1,5 @@
 import './App.css'
-import Logo from './assets/Aqua.png'
+import Logo from './assets/Logo.png'
 function App() {
   return (
     <>
@@ -9,7 +9,9 @@ function App() {
 
     <section>
       <div className="map">
-    
+          <div className='ponto'>
+              
+          </div>
       </div>
     </section>
 

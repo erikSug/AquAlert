@@ -11,7 +11,7 @@ header{
 }
 #logo{
     width: 125px;
-    height: 87px;
+    height: 110px;
 }
 section{
     display: flex;
@@ -21,7 +21,17 @@ section{
 }
 
 .map{
+    position: relative;
     height: 592px;
     width: 862px;
     background-image: url(./assets/saopaulo.png);
+}
+.ponto{
+    width: 27px;
+    height: 27px;
+    background-color: #36DB36;
+    border-radius: 100px;
+    position:absolute;
+    right: 25%;
+    bottom:28%;
 }
