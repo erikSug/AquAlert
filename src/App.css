@@ -29,7 +29,8 @@ section{
 .ponto{
     width: 27px;
     height: 27px;
-    background-color: #36DB36;
+    /* background-color: #36DB36; */
+    border: 1px solid black;
     border-radius: 100px;
     position:absolute;
     right: 25%;
