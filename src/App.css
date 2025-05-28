@@ -26,6 +26,7 @@ section{
     width: 862px;
     background-image: url(./assets/saopaulo.png);
 }
+
 .ponto{
     width: 27px;
     height: 27px;
@@ -33,6 +34,46 @@ section{
     border: 1px solid black;
     border-radius: 100px;
     position:absolute;
-    right: 25%;
-    bottom:28%;
+    right: 50%;
+    bottom: 40%;
+}
+.city-box{
+    position: absolute;
+    opacity: 0;
+    width: 140px;
+    height: 30px;
+    bottom: -10%;
+    left: -250%;
+    transition: all 0.2s ease-in-out;
+    padding: .55rem 1rem;
+    pointer-events: none;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.ponto:hover .city-box{
+    opacity: 0.9;
+    bottom: 110%;
+}
+
+.drop {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: drop-ping 1.5s ease-out infinite;
+    pointer-events: none;
+    bottom: 10%;
+    left: 15%;
+}
+
+@keyframes drop-ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
 }

@@ -6,16 +6,23 @@ import axios from 'axios'
 function App() {
   const [waterData, setWaterData] = useState(null);
   const [cityColor, setCityColor] = useState('#36DB36');
-
+  const [cityInfo, setCityInfo] = useState('Normal');
+  const [dropVisible, setDropVisible] = useState('hidden');
 
   function checkStatus(cityStatus) {
     if (cityStatus == "vermelho"){
       setCityColor("red")
+      setCityInfo("Emergência")
+      setDropVisible("visible")
     }
     else if (cityStatus == "amarelo"){
       setCityColor("yellow")
+      setCityInfo("Alerta")
+      setDropVisible("visible")
     }else{
       setCityColor("#36DB36")
+      setCityInfo('Normal')
+      setDropVisible("hidden")
     }
   }
 
@@ -57,9 +64,19 @@ function App() {
 
     <section>
       <div className="map">
-          <div className='ponto' style={{backgroundColor: cityColor}}>
 
-          </div>
+
+          <div className='ponto' style={{backgroundColor: cityColor}}>
+              <span className='city-box'>
+                Cidade1
+                <div>
+                  Situação:{cityInfo}
+                </div>
+              </span>
+              <div className="drop" style={{backgroundColor: cityColor, visibility:dropVisible}}></div> 
+        </div>
+
+
       </div>
     </section>
 
