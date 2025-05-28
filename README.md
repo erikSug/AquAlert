@@ -12,6 +12,7 @@ Pensand͏o͏ n͏isto, nosso time cr͏iou um sensor para medir o níve͏l da águ
 - ESP32;
 - Buzzer;
 - HC-SR04 Sensor de Distância Ultrassônico (Para uso real, utilize o modelo A02YYUW ou qualquer outro que seja prova d'água);
+- Biblioteca PubSecClient
 ### Conexão entre o Dispositivo e o Software
 - Linux Ubuntu dentro de uma Máquina Virtual Cloud;
 - Docker;
@@ -20,6 +21,34 @@ Pensand͏o͏ n͏isto, nosso time cr͏iou um sensor para medir o níve͏l da águ
 - React.js + Vite;
 - NPM;
 - axios;
+## Como instalar?
+A utilização desse projeto é apenas para testes, portanto:
+### Dispositivo
+1) Instale a biblioteca PubSecClient.
+2) Monte o dispositivo de acordo com a simulação.
+3) Mude o nome e senha do Wi-Fi, assim como o IP do Broker MQTT.
+4) Mude as configurações de acordo com a sua preferência.
+### Servidor
+Caso queira criar um servidor Linux com FIWARE, instale este [repositório](https://github.com/fabiocabrini/fiware) dentro da máquina virtual. Para mais instruções, leia a descrição do repositório mencionado.
+### Software
+1) Instale o Node.js caso não tenha instalado.
+2) Utilize o seguinte comando no terminal.
+```bash
+npm install
+```
+3) Após isso, para rodar localmente, utilize o  comando.
+```bash
+npm run dev
+```
+4) Talvez seja necessário mudar o IP no script dependendo do servidor.
+## Link da Simulação
+https://wokwi.com/projects/432041335930039297
+![image](https://github.com/user-attachments/assets/e1bfaaef-d3e8-4d2b-9c2a-f9a722ca3ce2)
+
+## Video de demonstração
+
+## Considerações Finais
+Este projeto é um protótipo de solução para mitigar os impactos de desastres naturais, com potencial para expansão e implementação de novas funcionalidades. Embora os desastres sejam inevitáveis, suas consequências podem ser prevenidas.
 ## Integrantes
 - Erik Kaiyu Suguiyama
 - Lucas Guerreiro
