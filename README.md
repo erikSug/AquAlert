@@ -43,7 +43,8 @@ npm run dev
 4) Talvez seja necessário mudar o IP no script dependendo do servidor.
 ## Link da Simulação
 https://wokwi.com/projects/432041335930039297
-![image](https://github.com/user-attachments/assets/e1bfaaef-d3e8-4d2b-9c2a-f9a722ca3ce2)
+![image](https://github.com/user-attachments/assets/11c5bf79-71b8-4132-b603-0cc66f114d93)
+
 
 ## Video de demonstração
 
