@@ -47,7 +47,7 @@ https://wokwi.com/projects/432041335930039297
 
 
 ## Video de demonstração
-
+Clique [aqui](https://youtu.be/ulPhDBCKn1c) para ver o vídeo demonstrativo
 ## Considerações Finais
 Este projeto é um protótipo de solução para mitigar os impactos de desastres naturais, com potencial para expansão e implementação de novas funcionalidades. Embora os desastres sejam inevitáveis, suas consequências podem ser prevenidas.
 ## Integrantes
