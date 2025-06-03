@@ -51,6 +51,6 @@ Clique [aqui](https://youtu.be/ulPhDBCKn1c) para ver o vídeo demonstrativo
 ## Considerações Finais
 Este projeto é um protótipo de solução para mitigar os impactos de desastres naturais, com potencial para expansão e implementação de novas funcionalidades. Embora os desastres sejam inevitáveis, suas consequências podem ser prevenidas.
 ## Integrantes
-- Erik Kaiyu Suguiyama
-- Lucas Guerreiro
-- Guilherme Vital
+- Erik Kaiyu Suguiyama RM: 559273
+- Lucas Guerreiro RM: 560359
+- Guilherme Vital RM: 560073
